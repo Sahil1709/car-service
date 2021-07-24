@@ -1,12 +1,16 @@
 # CarWashApplication
 
-To view a live example, **[click here](https://youtu.be/bNtYqpdhYRc)**.
+To view a live example, **[click here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)**.
 
 ## Getting Started
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-## Technologies Used 
+## Project Made By [Sahil Gupta](https://github.com/Sahil1709)
+
+## My Third Year Mini-Project
+
+## Technologies Used
 
 - [React](https://reactjs.org/)
 - [Material-UI](https://material-ui.com/)
