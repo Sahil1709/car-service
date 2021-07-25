@@ -11,7 +11,7 @@ Via Express routes, HTTP request that matches a route will be checked by
 CORS Middleware before coming to Security layer
 */
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://car-service-project.netlify.app",
 };
 app.use(cors(corsOptions));
 

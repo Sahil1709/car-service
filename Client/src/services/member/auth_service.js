@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "../member/auth_header";
 
-const AUTH_URL = "http://localhost:8010/admin/auth/";
+const AUTH_URL = "https://car-service-admin.herokuapp.com/admin/auth/";
 
 class AuthService {
   login(email, password) {

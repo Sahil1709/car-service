@@ -1,19 +1,11 @@
 import axios from "axios";
 import authHeader from "./authentication/auth_header";
 
-const ORDER_URL = "http://localhost:8030/order/";
-const CUST_ORDER = "http://localhost:8080/customer/order/";
+const ORDER_URL = "https://car-service-order.herokuapp.com/order/";
+const CUST_ORDER = "https://car-service-customer.herokuapp.com/customer/order/";
 
 class CustomerService {
-  placeOrder(
-    customerId,
-    customerName,
-    carName,
-    carNumber,
-    custAddress,
-    serviceName,
-    servicePrice
-  ) {
+  placeOrder(customerId, customerName, carName, carNumber, custAddress, serviceName, servicePrice) {
     return axios
       .post(
         ORDER_URL + "addOrder",

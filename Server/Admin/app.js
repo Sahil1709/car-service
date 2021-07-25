@@ -12,7 +12,7 @@ const mechanicRoutes = require("./services/mechanicServices");
 require("dotenv").config();
 
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://car-service-project.netlify.app",
 };
 
 app.use(cors(corsOptions));

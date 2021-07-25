@@ -2,8 +2,8 @@ import axios from "axios";
 import mechHeader from "../mech_header";
 import authHeader from "../auth_header";
 
-const API_URL = "http://localhost:8010/admin/mechanic/";
-const ACC_URL = "http://localhost:8020/mechanic/account/";
+const API_URL = "https://car-service-admin.herokuapp.com/admin/mechanic/";
+const ACC_URL = "https://car-service-mechanic.herokuapp.com/mechanic/account/";
 
 class MechanicService {
   findAll() {
